@@ -25,13 +25,13 @@ Berikut adalah daftar topik materi per pertemuan beserta tautan langsung ke berk
 
 | Pertemuan | Topik / Pembahasan | Tautan Notebook |
 | :---: | :--- | :--- |
-| **01** | Pengantar Data Science & Setup Environment | [Buka Notebook](./Pertemuan_01/Notebook_01.ipynb) |
-| **02** | Data Preprocessing & Manipulasi Data dengan Pandas | [Buka Notebook](./Pertemuan_02/Notebook_02.ipynb) |
-| **03** | Exploratory Data Analysis (EDA) & Statistika Deskriptif | [Buka Notebook](./Pertemuan_03/Notebook_03.ipynb) |
-| **04** | Visualisasi Data (Matplotlib & Seaborn) | [Buka Notebook](./Pertemuan_04/Notebook_04.ipynb) |
-| **05** | Pengantar Machine Learning & Supervised Learning | [Buka Notebook](./Pertemuan_05/Notebook_05.ipynb) |
-| **06** | Evaluasi Model Klasifikasi & Regresi | [Buka Notebook](./Pertemuan_06/Notebook_06.ipynb) |
-| **07** | Studi Kasus Terintegrasi / Review UTS | [Buka Notebook](./Pertemuan_07/Notebook_07.ipynb) |
+| **01** | Pengenalan Data Science | [Buka Notebook](./Pertemuan1_Ahamd_Rifai_240401010260.ipynb) |
+| **02** | Struktur Data Python, NumPy & Pandas | [Buka Notebook](./Pertemuan2_Ahamd_Rifai_240401010260.ipynb) |
+| **03** | Data Cleaning: Missing, Outlier & Ekstraksi | [Buka Notebook](./Pertemuan3_Ahamd_Rifai_240401010260.ipynb) |
+| **04** | Statistika Dasar & Analisis Data | [Buka Notebook](./Pertemuan4_Ahamd_Rifai_240401010260.ipynb) |
+| **05** | Visualisasi Data | [Buka Notebook](./Pertemuan5_Ahamd_Rifai_240401010260.ipynb) |
+| **06** | Persiapan Data | [Buka Notebook](./Pertemuan6_Ahamd_Rifai_240401010260.ipynb) |
+| **07** | Pengantar Machine Learning: Regresi Linier | [Buka Notebook](./Pertemuan7_Ahamd_Rifai_240401010260.ipynb) |
 
 > *Catatan: Silakan sesuaikan nama folder dan file `.ipynb` di atas dengan struktur aktual di dalam repository Anda.*
 
@@ -95,19 +95,20 @@ Anda dapat menjalankan *notebook* di repository ini dengan dua cara:
 
 ## 6. Kesimpulan Perjalanan Belajar (Pertemuan 1–7)
 
-Rangkaian materi pada Pertemuan 1 hingga 7 memberikan pemahaman menyeluruh mengenai alur kerja (*data science workflow*) yang sistematis, mulai dari penyiapan lingkungan kerja hingga evaluasi model. Berikut adalah poin-poin penting dari perjalanan pembelajaran paruh pertama ini:
+Rangkaian materi dari Pertemuan 1 hingga 7 memberikan pemahaman terstruktur mengenai alur kerja awal seorang Data Scientist, mulai dari pengenalan konsep dasar, pembersihan data, analisis statistik, hingga pemodelan prediktif. Berikut adalah ringkasan detail dari perjalanan pembelajaran paruh pertama ini:
 
-### A. Fondasi dan Eksplorasi Data (Pertemuan 1–4)
-* **Setup Environment & Tools:** Membangun ekosistem kerja menggunakan Python, Jupyter Notebook, dan Google Colab sebagai perangkat utama dalam mengolah data.
-* **Data Preprocessing & Manipulation:** Mempelajari cara membersihkan dataset dari *missing values*, duplikasi, atau data pencilan (*outliers*), serta melakukan transformasi data menggunakan pustaka Pandas dan NumPy.
-* **Exploratory Data Analysis (EDA):** Menggunakan statistika deskriptif untuk memahami distribusi data, mendeteksi korelasi antar-variabel, dan menyajikan temuan tersebut secara visual melalui grafik interaktif menggunakan Matplotlib dan Seaborn.
+### A. Fondasi, Manipulasi, dan Pembersihan Data (Pertemuan 1–3)
+* **Pengenalan Data Science (Pertemuan 1):** Memahami peran, ruang lingkup, dan urgensi Data Science dalam mentransformasikan data mentah menjadi informasi strategis, serta menyiapkan *environment* kerja.
+* **Eksplorasi Struktur Data & Library Utama (Pertemuan 2):** Menguasai struktur data bawaan Python serta dasar penggunaan pustaka NumPy dan Pandas sebagai alat utama dalam manipulasi data tabular dan komputasi numerik.
+* **Data Cleaning (Pertemuan 3):** Mempelajari aspek krusial dalam menyiapkan data berkualitas melalui penanganan data yang hilang (*missing values*), deteksi nilai ekstrem (*outliers*), serta teknik ekstraksi data untuk kebutuhan analisis lebih lanjut.
 
-### B. Implementasi Pemodelan Dasar (Pertemuan 5–7)
-* **Pengenalan Machine Learning:** Memahami perbedaan mendasar antara pendekatan berbasis aturan konvensional dengan pendekatan berbasis data (*machine learning*).
-* **Supervised Learning:** Mengimplementasikan algoritma dasar untuk menyelesaikan dua tipe masalah utama:
-  * **Klasifikasi:** Memprediksi kategori atau label diskret pada data.
-  * **Regresi:** Memprediksi nilai kontinu atau angka numerik.
-* **Evaluasi Performa Model:** Memanfaatkan pustaka Scikit-Learn untuk mengukur kinerja model menggunakan metrik standar seperti *Accuracy*, *Precision*, *Recall*, *F1-Score*, maupun *Mean Squared Error* (MSE) guna memastikan model yang dibangun memiliki validitas yang baik.
+### B. Analisis Visual dan Kesiapan Pemodelan (Pertemuan 4–6)
+* **Statistika Dasar & Analisis Data (Pertemuan 4):** Menerapkan konsep statistika deskriptif untuk membedah karakteristik dataset, memahami distribusi data, dan menarik kesimpulan awal secara objektif.
+* **Visualisasi Data (Pertemuan 5):** Memanfaatkan visualisasi grafis untuk menyampaikan informasi secara intuitif, mengidentifikasi tren, serta melihat korelasi antar-variabel secara eksploratif.
+* **Persiapan Data (Pertemuan 6):** Melakukan langkah final prakondisi data (*data preparation*) agar siap dikonsumsi oleh algoritma *Machine Learning*, memastikan format dan skala data berada pada kondisi optimal.
+
+### C. Pengantar Pemodelan Prediktif (Pertemuan 7)
+* **Pengantar Machine Learning - Regresi Linier (Pertemuan 7):** Memasuki ranah *Supervised Learning* dengan mempelajari implementasi Regresi Linier untuk memprediksi nilai kontinu (numerik) berdasarkan hubungan antar-variabel data yang telah dipersiapkan.
 
 ### Kesimpulan Umum
-Proses belajar selama tujuh pertemuan ini menegaskan bahwa *Data Science* bukan sekadar tentang penerapan algoritma yang rumit, melainkan proses iteratif yang sangat bergantung pada kualitas data (*garbage in, garbage out*). Paruh pertama ini berhasil memberikan fondasi analitis yang kuat untuk mentransformasikan data mentah menjadi informasi yang objektif demi mendukung pengambilan keputusan berbasis data (*data-driven decision making*).
+Pembelajaran selama tujuh pertemuan ini membuktikan bahwa proses menghasilkan model *Machine Learning* yang akurat (seperti Regresi Linier) sangat bergantung pada kualitas data pada tahap awal. Penguasaan teknik *data cleaning*, analisis statistik, dan *data preparation* menjadi kunci utama dalam memastikan prinsip *"garbage in, garbage out"* dapat dihindari, sehingga menghasilkan keputusan berbasis data (*data-driven decision*) yang valid.
