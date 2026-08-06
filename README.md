@@ -36,7 +36,7 @@ Berikut adalah daftar topik materi per pertemuan beserta tautan langsung ke berk
 | **10** | Algoritma Klasifikasi (Bagian 2): Metode Ensemble (Random Forest) & Imbalanced Dataset | [Buka Notebook](./Pertemuan10_Ahamd_Rifai_240401010260.ipynb) |
 | **11** | Unsupervised Learning (Clustering): K-Means, Hierarchical Clustering, & Metode Elbow | [Buka Notebook](./Pertemuan11_Ahamd_Rifai_240401010260.ipynb) |
 | **12** | Asosiasi Data & Sistem Rekomendasi Dasar: Algoritma Apriori & Filtering | [Buka Notebook](./Pertemuan12_Ahmad_Rifai_240401010260.ipynb) |
-| **13** | Pengantar Deep Learning & NLP Dasar: ANN & Analisis Sentimen via TF-IDF | [Buka Notebook](./Pertemuan13_Ahmzd_Rifai_240401010260.ipynb) |
+| **13** | Pengantar Deep Learning & NLP Dasar: ANN & Analisis Sentimen via TF-IDF | [Buka Notebook](./Pertemuan13_Ahmad_Rifai_240401010260.ipynb) |
 
 > *Catatan: Silakan sesuaikan nama folder dan file `.ipynb` di atas dengan struktur aktual di dalam repository Anda.*
 
@@ -128,5 +128,3 @@ Rangkaian pembelajaran komprehensif dari Pertemuan 1 hingga 13 membuktikan bahwa
 2. **Fleksibilitas Pemodelan Machine Learning (Pertemuan 7–12):** Penguasaan berbagai paradigma pemodelan—mulai dari *Supervised Learning* (Regresi Linier, Logistic Regression, Decision Tree, Random Forest) untuk tugas prediksi berbasis label, *Unsupervised Learning* (K-Means & Hierarchical Clustering) untuk pengelompokan pola tersembunyi, hingga analisis aturan asosiasi (Apriori)—memberikan fleksibilitas dalam memilih solusi algoritma yang paling tepat sesuai dengan karakteristik permasalahan data yang dihadapi.
 3. **Pentingnya Evaluasi Metriks & Penanganan Imbalance:** Pengujian model tidak hanya berpatokan pada nilai akurasi semata, melainkan membutuhkan pemahaman mendalam atas matriks evaluasi seperti *Precision*, *Recall*, dan *F1-Score*, terutama ketika menangani data dunia nyata yang sering kali tidak seimbang (*imbalanced dataset*).
 4. **Kesiapan Menghadapi Data Era Modern (Pertemuan 13):** Pengenalan dasar *Deep Learning* (ANN) dan *Natural Language Processing* (NLP via TF-IDF) memperluas cakupan analisis dari sekadar data tabular mentah menjadi data tak terstruktur (*unstructured data*) seperti teks dan analisis sentimen.
-
-Secara keseluruhan, penguasaan dari tahap pra-pemrosesan data mentah hingga pemodelan tingkat lanjut ini menjadi kunci utama untuk mentransformasikan sekumpulan data menjadi keputusan berbasis data (*data-driven decision*) yang valid, presisi, dan bernilai strategis bagi kebutuhan organisasi maupun industri.
