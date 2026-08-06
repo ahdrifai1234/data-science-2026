@@ -32,6 +32,11 @@ Berikut adalah daftar topik materi per pertemuan beserta tautan langsung ke berk
 | **05** | Visualisasi Data | [Buka Notebook](./Pertemuan5_Ahamd_Rifai_240401010260.ipynb) |
 | **06** | Persiapan Data | [Buka Notebook](./Pertemuan6_Ahamd_Rifai_240401010260.ipynb) |
 | **07** | Pengantar Machine Learning: Regresi Linier | [Buka Notebook](./Pertemuan7_Ahamd_Rifai_240401010260.ipynb) |
+| **09** | Algoritma Klasifikasi (Bagian 1): Logistic Regression, Decision Trees, & Evaluasi Metrics | [Buka Notebook](./Pertemuan9_Ahamd_Rifai_240401010260.ipynb) |
+| **10** | Algoritma Klasifikasi (Bagian 2): Metode Ensemble (Random Forest) & Imbalanced Dataset | [Buka Notebook](./Pertemuan10_Ahamd_Rifai_240401010260.ipynb) |
+| **11** | Unsupervised Learning (Clustering): K-Means, Hierarchical Clustering, & Metode Elbow | [Buka Notebook](./Pertemuan11_Ahamd_Rifai_240401010260.ipynb) |
+| **12** | Asosiasi Data & Sistem Rekomendasi Dasar: Algoritma Apriori & Filtering | [Buka Notebook](./Pertemuan12_Ahmad_Rifai_240401010260.ipynb) |
+| **13** | Pengantar Deep Learning & NLP Dasar: ANN & Analisis Sentimen via TF-IDF | [Buka Notebook](./Pertemuan13_Ahmzd_Rifai_240401010260.ipynb) |
 
 > *Catatan: Silakan sesuaikan nama folder dan file `.ipynb` di atas dengan struktur aktual di dalam repository Anda.*
 
@@ -107,8 +112,21 @@ Rangkaian materi dari Pertemuan 1 hingga 7 memberikan pemahaman terstruktur meng
 * **Visualisasi Data (Pertemuan 5):** Memanfaatkan visualisasi grafis untuk menyampaikan informasi secara intuitif, mengidentifikasi tren, serta melihat korelasi antar-variabel secara eksploratif.
 * **Persiapan Data (Pertemuan 6):** Melakukan langkah final prakondisi data (*data preparation*) agar siap dikonsumsi oleh algoritma *Machine Learning*, memastikan format dan skala data berada pada kondisi optimal.
 
-### C. Pengantar Pemodelan Prediktif (Pertemuan 7)
+### C. Pemodelan Regresi, Klasifikasi, dan Pembelajaran Lanjutan (Pertemuan 7–13)
 * **Pengantar Machine Learning - Regresi Linier (Pertemuan 7):** Memasuki ranah *Supervised Learning* dengan mempelajari implementasi Regresi Linier untuk memprediksi nilai kontinu (numerik) berdasarkan hubungan antar-variabel data yang telah dipersiapkan.
+* **Algoritma Klasifikasi Bagian 1 (Pertemuan 9):** Mempelajari algoritma *Logistic Regression* dan *Decision Trees* untuk klasifikasi, serta mengukur performa model menggunakan matriks evaluasi *Confusion Matrix*, *Accuracy*, *Precision*, *Recall*, dan *F1-Score*.
+* **Algoritma Klasifikasi Bagian 2 (Pertemuan 10):** Mengimplementasikan *Metode Ensemble* (*Random Forest*) dan teknik penanganan *Imbalanced Dataset* pada studi kasus *Customer Churn Prediction*.
+* **Unsupervised Learning - Clustering (Pertemuan 11):** Mengelompokkan data tanpa label menggunakan algoritma *K-Means* dan *Hierarchical Clustering*, serta menentukan jumlah *cluster* optimal menggunakan *Metode Elbow*.
+* **Asosiasi Data & Sistem Rekomendasi (Pertemuan 12):** Menemukan pola aturan asosiasi transaksi (*Market Basket Analysis*) menggunakan Algoritma *Apriori*, serta memahami konsep *Collaborative* dan *Content-Based Filtering*.
+* **Pengantar Deep Learning & NLP Dasar (Pertemuan 13):** Memahami konsep dasar *Artificial Neural Network* (ANN) dan melakukan pemrosesan teks sederhana menggunakan ekstraksi fitur *TF-IDF* untuk analisis sentimen.
+
 
 ### Kesimpulan Umum
-Pembelajaran selama tujuh pertemuan ini membuktikan bahwa proses menghasilkan model *Machine Learning* yang akurat (seperti Regresi Linier) sangat bergantung pada kualitas data pada tahap awal. Penguasaan teknik *data cleaning*, analisis statistik, dan *data preparation* menjadi kunci utama dalam memastikan prinsip *"garbage in, garbage out"* dapat dihindari, sehingga menghasilkan keputusan berbasis data (*data-driven decision*) yang valid.
+Rangkaian pembelajaran komprehensif dari Pertemuan 1 hingga 13 membuktikan bahwa siklus hidup Data Science (*Data Science Life Cycle*) merupakan sebuah fondasi yang saling berkesinambungan:
+
+1. **Pentingnya Kualitas Data di Tahap Awal (Pertemuan 1–6):** Proses pembentukan model Machine Learning yang akurat sangat bergantung pada kualitas pembersihan data (*data cleaning*), penanganan *missing values* dan *outliers*, eksplorasi statistik (EDA), serta *data preparation*. Tanpa tahap penyiapan data yang matang, prinsip *"garbage in, garbage out"* akan terjadi, di mana algoritma tercanggih sekalipun tidak akan mampu menghasilkan prediksi yang valid.
+2. **Fleksibilitas Pemodelan Machine Learning (Pertemuan 7–12):** Penguasaan berbagai paradigma pemodelan—mulai dari *Supervised Learning* (Regresi Linier, Logistic Regression, Decision Tree, Random Forest) untuk tugas prediksi berbasis label, *Unsupervised Learning* (K-Means & Hierarchical Clustering) untuk pengelompokan pola tersembunyi, hingga analisis aturan asosiasi (Apriori)—memberikan fleksibilitas dalam memilih solusi algoritma yang paling tepat sesuai dengan karakteristik permasalahan data yang dihadapi.
+3. **Pentingnya Evaluasi Metriks & Penanganan Imbalance:** Pengujian model tidak hanya berpatokan pada nilai akurasi semata, melainkan membutuhkan pemahaman mendalam atas matriks evaluasi seperti *Precision*, *Recall*, dan *F1-Score*, terutama ketika menangani data dunia nyata yang sering kali tidak seimbang (*imbalanced dataset*).
+4. **Kesiapan Menghadapi Data Era Modern (Pertemuan 13):** Pengenalan dasar *Deep Learning* (ANN) dan *Natural Language Processing* (NLP via TF-IDF) memperluas cakupan analisis dari sekadar data tabular mentah menjadi data tak terstruktur (*unstructured data*) seperti teks dan analisis sentimen.
+
+Secara keseluruhan, penguasaan dari tahap pra-pemrosesan data mentah hingga pemodelan tingkat lanjut ini menjadi kunci utama untuk mentransformasikan sekumpulan data menjadi keputusan berbasis data (*data-driven decision*) yang valid, presisi, dan bernilai strategis bagi kebutuhan organisasi maupun industri.
